@@ -27,6 +27,70 @@
     height: 300px;
 
 }
+/* =================== 9 images grid==================== */
+grid{
+    padding: 5vw 20vw;
+}
+
+.container1 {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "area-1- area-1- area-2 area-3 area-6 area-6 . . . . ."
+      "area-1- area-1- area-4 area-5 area-7 area-7 . . . . ."
+      "area-8 area-8 area-9 area-9 area-9 area-9 . . . . ."
+      "area-8 area-8 area-9 area-9 area-9 area-9 . . . . ."
+      ". . . . . . . . . . .";
+  }
+  
+  .area-1- { grid-area: area-1-; 
+width: 300px;
+height: 400px;
+
+}
+  
+  .area-8 { grid-area: area-8;
+    width: 300px;
+height: 400px;
+}
+  
+  .area-2 { grid-area: area-2;
+    width: 145px;
+    height: 180px; }
+  
+  .area-3 { grid-area: area-3;
+    width: 145px;
+    height: 180px; }
+  
+  .area-4 { grid-area: area-4; 
+    width: 145px;
+    height: 180px;}
+  
+  .area-5 { grid-area: area-5;
+    width: 145px;
+    height: 180px;
+   }
+  
+  .area-6 { grid-area: area-6; 
+    width: 300px;
+height: 180px;
+}
+  
+  .area-7 { grid-area: area-7; 
+
+    width: 300px;
+    height: 180px;
+
+    
+}
+  
+  .area-9 { grid-area: area-9;
+height:400px ;
+width: 605px ;
+
+}
 
 /* ========= image grid section ========== */
 
@@ -87,9 +151,62 @@
     .carousel-item img{
         height: 50vh;
     }
+    
+/*     ===================== 9 images grid ================ */
+.grid{
+    padding: 5vw 20vw;
+}
 
 
-    /* ========== */
+  
+  .area-1- { grid-area: area-1-; 
+width: 150px;
+height: 200px;
+
+}
+  
+  .area-8 { grid-area: area-8;
+    width: 150px;
+height: 200px;
+}
+  
+  .area-2 { grid-area: area-2;
+    width: 70px;
+    height: 90px; }
+  
+  .area-3 { grid-area: area-3;
+    width: 70px;
+    height: 90px; }
+  
+  .area-4 { grid-area: area-4; 
+    width: 70px;
+    height: 90px;}
+  
+  .area-5 { grid-area: area-5;
+    width: 70px;
+    height: 90px;
+   }
+  
+  .area-6 { grid-area: area-6; 
+    width: 150px;
+height: 90px;
+}
+  
+  .area-7 { grid-area: area-7; 
+
+    width: 150px;
+    height: 90px;
+
+    
+}
+  
+  .area-9 { grid-area: area-9;
+height:200px ;
+width: 305px ;
+
+}
+
+    /* ==== normal grid====== */
 
 
    
@@ -159,7 +276,63 @@
         width: 80vw;
     }
 
+/* ===================== grid ==================== */
+.grid{
+    padding: 5vw 20vw;
+}
 
+
+  
+  .area-1- { grid-area: area-1-; 
+width: 75px;
+height: 100px;
+
+}
+  
+  .area-8 { grid-area: area-8;
+    width: 75px;
+height: 100px;
+}
+  
+  .area-2 { grid-area: area-2;
+    width: 35px;
+    height: 45px; }
+  
+  .area-3 { grid-area: area-3;
+    width: 35px;
+    height: 45px; }
+  
+  .area-4 { grid-area: area-4; 
+    width: 35px;
+    height: 45px;}
+  
+  .area-5 { grid-area: area-5;
+    width: 35px;
+    height: 45px;
+   }
+  
+  .area-6 { grid-area: area-6; 
+    width: 75px;
+height: 45px;
+}
+  
+  .area-7 { grid-area: area-7; 
+
+    width: 75px;
+    height: 45px;
+
+    
+}
+  
+  .area-9 { grid-area: area-9;
+height:100px ;
+width: 160px ;
+
+}
+
+}
+    
+    
 
 }
 
